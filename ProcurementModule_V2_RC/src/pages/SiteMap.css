@@ -1,0 +1,103 @@
+.sitemap-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.sitemap-container h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.last-updated {
+  text-align: right;
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.sitemap-section {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sitemap-section h2 {
+  color: #2980b9;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.sitemap-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.sitemap-section li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #e0e0e0;
+}
+
+.sitemap-section li:last-child {
+  border-bottom: none;
+}
+
+.sitemap-section a {
+  color: #2c3e50;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.sitemap-section a:hover {
+  background-color: #e8f4fc;
+  color: #2980b9;
+}
+
+.path {
+  color: #7f8c8d;
+  font-size: 0.9em;
+  margin-left: 10px;
+  font-family: monospace;
+}
+
+.sitemap-legend {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #f0f8ff;
+  border-left: 4px solid #3498db;
+  border-radius: 4px;
+}
+
+.sitemap-legend p {
+  margin: 0;
+  color: #555;
+  font-size: 0.95em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sitemap-container {
+    padding: 10px;
+  }
+  
+  .sitemap-section {
+    padding: 15px;
+  }
+  
+  .path {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
